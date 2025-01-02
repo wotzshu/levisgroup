@@ -33,22 +33,39 @@ export default function Footer() {
                             </Menu>
                         
                         </div>
-
-
+                        <div className="col-span-1">
+                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Links</p>
+                            <div>
+                                <Link href="https://top.gg/bot/774043716797071371/vote">
+                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                        Vote Bot
+                                    </a>
+                                </Link>
+                            </div>
+                            <div>
+                                <a href="https://discord.gg/ACJQzJuckW" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    Support Server
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    Invite Bot
+                                </a>
+                            </div>
                         </div>
                         <div className="col-span-1">
-                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Sosyal</p>
+                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Social</p>
                             <div>
                                 <Link href="https://discord.gg/ACJQzJuckW">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-discord`} /> Twitter (X) 
+                                    <i className={`fa-brands fa-discord`} /> Disocrd 
                                     </a>
                                 </Link>
                             </div>
                             <div>
                                 <Link href="https://github.com/umutxyp/MusicBot">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-github`} /> Instagram 
+                                    <i className={`fa-brands fa-github`} /> GitHub 
                                     </a>
                                 </Link>
                             </div>
@@ -61,18 +78,18 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="col-span-1">
-                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Önemli</p>
+                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Important</p>
                             <div>
                                 <Link href="/tos">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Servis Kuralları
+                                        Terms Of Service
                                     </a>
                                 </Link>
                             </div>
                             <div>
                                 <Link href="/privacy">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Gizlilik Politikası
+                                        Privacy Policy
                                     </a>
                                 </Link>
                             </div>
@@ -80,15 +97,15 @@ export default function Footer() {
                     </div>
                     <div className="mt-10 grid content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                         <p className="text-white text-center sm:text-left text-opacity-50">
-                            {new Date().getFullYear()} &copy; Levis Group
+                            {new Date().getFullYear()} &copy; MusicMaker
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                                 <p className={"text-xs text-green-400"}>
-                                    Levis Group
+                                    Bot Online
                                 </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
-                            {"Developed by Wotzshu"}
+                            {"Powered by Code Share ❤️"}
                         </p>
                     </div>
                 </div>
