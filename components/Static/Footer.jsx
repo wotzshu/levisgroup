@@ -31,7 +31,10 @@ export default function Footer() {
                                     </Menu.Button>
                                 </div>
                             </Menu>
-                    
+                        
+                        </div>
+                        <div className="col-span-1">
+                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Sosyal</p>
                             <div>
                                 <Link href="https://instagram.com/groupoflevis/">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
