@@ -27,24 +27,17 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Silincek",
-      icon: "fa fa-list-alt",
-      activeIcon: "fa fa-list-alt",
-      href: "/commands",
-    },
-    {
-      link: true,
       name: "Instagram",
       icon: "fab fa-discord",
       activeIcon: "fab fa-discord",
-      href: "https://discord.gg/ACJQzJuckW",
+      href: "https://instagram.com/groupoflevis/",
     },
     {
       link: true,
       name: "YouTube",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
-      href: "https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=bot%20applications.commands",
+      href: "https://www.youtube.com/@LevisGroup",
     },
     {
       link: true,
