@@ -31,46 +31,16 @@ export default function Footer() {
                                     </Menu.Button>
                                 </div>
                             </Menu>
-                        
-                        </div>
-                        <div className="col-span-1">
-                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Linkler</p>
+                    
                             <div>
-                                <Link href="https://top.gg/bot/774043716797071371/vote">
-                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Değiştirilcek
-                                    </a>
-                                </Link>
-                            </div>
-                            <div>
-                                <a href="https://discord.gg/ACJQzJuckW" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    Değiştirilcek
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    Değiştirilcek
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-span-1">
-                            <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Sosyal</p>
-                            <div>
-                                <Link href="https://discord.gg/ACJQzJuckW">
-                                    <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-discord`} /> Discord (Kapalı) 
-                                    </a>
-                                </Link>
-                            </div>
-                            <div>
-                                <Link href="https://github.com/umutxyp/MusicBot">
+                                <Link href="https://instagram.com/groupoflevis/">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-instagram`} /> Instagram
                                     </a>
                                 </Link>
                             </div>
                             <div>
-                                <Link href="https://youtube.com/UmutBayraktarYT">
+                                <Link href="https://youtube.com/@LevisGroup">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-youtube`} /> YouTube 
                                     </a>
@@ -101,7 +71,7 @@ export default function Footer() {
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                                 <p className={"text-xs text-green-400"}>
-                                    Bot Online
+                                    Levis Group
                                 </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
