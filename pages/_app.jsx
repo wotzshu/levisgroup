@@ -41,7 +41,7 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "İş Ortaklarımız",
+      name: "Sanatçılarımız",
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
